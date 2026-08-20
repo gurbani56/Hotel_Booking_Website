@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meridian Hotel - Home</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons (Task 3: search icon) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Meridian Hotel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rooms</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="catalogue.html">All Rooms</a></li>
+            <li><a class="dropdown-item" href="catalogue.html">Single Room</a></li>
+            <li><a class="dropdown-item" href="catalogue.html">Suite</a></li>
+            <li><a class="dropdown-item" href="catalogue.html">Family Room</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+      </ul>
+      <form class="d-flex" role="search">
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-search"></i></span>
+          <input type="search" class="form-control" placeholder="Search rooms..." aria-label="Search">
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<section class="hero container-fluid">
+  <h1>Welcome to Meridian Hotel</h1>
+  <p>Comfortable rooms, friendly service, and easy online booking.</p>
+  <a href="catalogue.html" class="btn btn-gold btn-lg">View Rooms</a>
+</section>
+
+<div class="container">
+
+  <h2 class="mt-5 mb-4">Why Book With Us</h2>
+  <div class="row g-4 cards">
+    <div class="col-12 col-sm-12 col-md-4">
+      <div class="card h-100 p-3">
+        <h3>Free Breakfast</h3>
+        <p>Complimentary breakfast is included with every room booking.</p>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4">
+      <div class="card h-100 p-3">
+        <h3>Free Cancellation</h3>
+        <p>Cancel up to 48 hours before check-in with no charge.</p>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4">
+      <div class="card h-100 p-3">
+        <h3>24/7 Front Desk</h3>
+        <p>Our staff is available around the clock to help you.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="mt-5 mb-4">Featured Rooms</h2>
+  <div class="row g-4 cards">
+    <div class="col-12 col-sm-12 col-md-4">
+      <div class="card h-100">
+        <img src="single_room.jpg" alt="Single Room" class="card-img-top">
+        <div class="p-3">
+          <h3>Single Room</h3>
+          <p>A cozy room for one guest.</p>
+          <p class="price">₹2,800 / night</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4">
+      <div class="card h-100">
+        <img src="suite.jpg" alt="Suite" class="card-img-top">
+        <div class="p-3">
+          <h3>Suite</h3>
+          <p>A spacious room with a balcony view.</p>
+          <p class="price">₹6,200 / night</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4">
+      <div class="card h-100">
+        <img src="family_room.jpg" alt="Family Room" class="card-img-top">
+        <div class="p-3">
+          <h3>Family Room</h3>
+          <p>Enough space for up to four guests.</p>
+          <p class="price">₹4,500 / night</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="mt-5 mb-4">Hotel Amenities</h2>
+  <div class="row g-4 text-center">
+    <div class="col-12 col-sm-6 col-md-3 amenity-item">
+      <img src="swimming.jpg" alt="Swimming pool" class="rounded-circle img-fluid avatar-circle">
+      <h3>Swimming Pool</h3>
+      <p>Open 6 AM – 10 PM daily</p>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3 amenity-item">
+      <img src="spa.jpg" alt="Spa and wellness" class="rounded-circle img-fluid avatar-circle">
+      <h3>Spa &amp; Wellness</h3>
+      <p>Massages, sauna &amp; steam room</p>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3 amenity-item">
+      <img src="fitness.jpg" alt="Fitness center" class="rounded-circle img-fluid avatar-circle">
+      <h3>Fitness Center</h3>
+      <p>24-hour access for all guests</p>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3 amenity-item">
+      <img src="restaurant.jpg" alt="Restaurant" class="rounded-circle img-fluid avatar-circle">
+      <h3>Fine Dining</h3>
+      <p>Multi-cuisine restaurant on-site</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="container">
+    <p class="mb-0">&copy; 2026 Meridian Hotel.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
